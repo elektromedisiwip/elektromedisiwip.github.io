@@ -1,181 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SI-PS WMC</title>
-    <!-- ======= Styles ====== -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-
-    
+    <title>Login SI-PS</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-
 <body>
-    <!-- =============== Navigation ================ -->
-    <div class="container">
-        <div class="navigation">
-            <ul>
-                <li>
-                    <a href="index.html">
-                        <img class="icon" src="logo WMC.jpeg" alt="">
-                        <span class="title">SI-PS WMC</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="index.html">
-                        <span class="icon">
-                            <ion-icon name="folder-outline"></ion-icon>
-                        </span>
-                        <span class="title">Data</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="permintaan.html">
-                        <span class="icon">
-                            <ion-icon name="people-outline"></ion-icon>
-                        </span>
-                        <span class="title">Permintaan</span>
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="log-out-outline"></ion-icon>
-                        </span>
-                        <span class="title">Sign Out</span>
-                    </a>
-                </li>
-            </ul>
+    <body>
+        <div class="wrapper">
+            <form action="#">
+                <h2>SI-PS WMC</h2>
+                <div class="input-field">
+                    <input id="email" type="email" required>
+                    <label>Enter your email</label>
+                </div>
+                <div class="input-field">
+                    <input id="password" type="password" required>
+                    <label>Enter your password</label>
+                </div>
+                <div class="forgot">
+                    <label for="remember">
+                        
+                        
+                    </label>
+                    
+                </div>
+                <button id="btn-login" type="submit">Login</button>
+                
+            </form>
         </div>
-
-        <!-- ========================= Main ==================== -->
-        <div class="main">
-            <div class="topbar">
-                <div class="toggle">
-                    <ion-icon name="menu-outline"></ion-icon>
-                </div>   
-            </div>
-
-            <!-- ======================= Cards ================== -->
-            <div class="cardBox">
-                <a href="https://docs.google.com/spreadsheets/d/1DpFhWiqjrvFaNhm961cn0qOd1LJMbKuQ/edit?gid=99415195#gid=99415195" style="text-decoration: none;">
-                <div class="card"> 
-                    <div> 
-                        <div class="numbers">Data Inventory</div>
-                        <div class="cardName">WMC</div>
-                    </div>
-
-                    <div class="iconBx">
-                        <ion-icon name="folder-outline"></ion-icon>
-                    </div>
-                </div>
-            </a>
-
-
-            <a href="https://docs.google.com/spreadsheets/d/17jEPg7IGOlwK--txRNM1Yl-HhVXNZ6ewlgxZ25LFZZE/edit?gid=725708501#gid=725708501" style="text-decoration: none;">
-                <div class="card"> 
-                    <div> 
-                        <div class="numbers">Data Asset</div>
-                        <div class="cardName">WMC</div>
-                    </div>
-
-                    <div class="iconBx">
-                        <ion-icon name="folder-outline"></ion-icon>
-                    </div>
-                </div>
-            </a>
-
-            <a href="https://docs.google.com/spreadsheets/d/1yEs6ev5iKqQJRE9M0fCDl7Hon1rbgbEo7PWNFQUalLg/edit?gid=0#gid=0" style="text-decoration: none;">
-                <div class="card"> 
-                    <div> 
-                        <div class="numbers">Data Inventory</div>
-                        <div class="cardName">WMC - WBN</div>
-                    </div>
-
-                    <div class="iconBx">
-                        <ion-icon name="folder-outline"></ion-icon>
-                    </div>
-                </div>
-            </a>
-
-            <a href="https://docs.google.com/spreadsheets/d/13dYAQj5Lf9TXCwxLY2Jz_o7F8XbpLRbsfZG_llDUbyc/edit?gid=0#gid=0" style="text-decoration: none;">
-                <div class="card"> 
-                    <div> 
-                        <div class="numbers">Data Asset</div>
-                        <div class="cardName">WMC - WBN</div>
-                    </div>
-
-                    <div class="iconBx">
-                        <ion-icon name="folder-outline"></ion-icon>
-                    </div>
-                </div>
-            </a>
-                 
-            <a href="https://docs.google.com/spreadsheets/d/1_rtaIQAmC4_nUZFxyojxp0CDWG4DpD7a/edit?gid=1498127867#gid=1498127867" style="text-decoration: none;">
-                <div class="card"> 
-                    <div> 
-                        <div class="numbers">Data Kalibrasi</div>
-                        <div class="cardName">WMC</div>
-                    </div>
-
-                    <div class="iconBx">
-                        <ion-icon name="folder-outline"></ion-icon>
-                    </div>
-                </div>
-            </a>
-            <a href="https://docs.google.com/spreadsheets/d/1qIXpe-PivjnpdY0WGHklPlfWHZXeScs4VPxIvGfS8Ts/edit?gid=1558903419#gid=1558903419" style="text-decoration: none;">
-                <div class="card"> 
-                    <div> 
-                        <div class="numbers">Data Kunjungan Tamu</div>
-                        <div class="cardName">WMC</div>
-                    </div>
-
-                    <div class="iconBx">
-                        <ion-icon name="folder-outline"></ion-icon>
-                    </div>
-                </div>
-            </a>
-
-
-            <a href="https://docs.google.com/spreadsheets/d/1EBIvNm2x1wdEf28BqBYSDRrpB7rYurqDlIc7kRePOyI/edit" style="text-decoration: none;">
-                <div class="card"> 
-                    <div> 
-                        <div class="numbers">Data Tagihan Barang</div>
-                        <div class="cardName">Asset & Inventory Control</div>
-                    </div>
-
-                    <div class="iconBx">
-                        <ion-icon name="folder-outline"></ion-icon>
-                    </div>
-                </div>
-            </a>
-
-
-
-            </div>
-
-            <!-- ================ Order Details List ================= -->
-            
-
-                <!-- ================= New Customers ================ -->
-            </div>
-        </div>
-    </div>
-
-    <!-- =========== Scripts =========  -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    
+    <!-- FIREBASE PILIHAN -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="./assets/scripts/firebase-config.js"></script>
+    <script src="./assets/scripts/script.js"></script>
     <script src="assets/js/main.js"></script>
 
     <!-- ====== ionicons ======= -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
