@@ -28,14 +28,13 @@ login.addEventListener("click",function(event) {
     signInWithEmailAndPassword(auth,email,password)
       .then ((userCredential) => {
         const user = userCredential.user;
-        alert("berhasil login")
         window.location.href = "dashboard.html";
 
       })
       .catch ((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        alert(errorMessage)
+        alert(Password atau Email Salah)
       });
   } else {
     alert("Silakan isi email dan password")
