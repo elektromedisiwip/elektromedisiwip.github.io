@@ -34,7 +34,7 @@ login.addEventListener("click",function(event) {
       .catch ((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        alert(Password atau Email Salah)
+        alert("Password atau Email Salah")
       });
   } else {
     alert("Silakan isi email dan password")
