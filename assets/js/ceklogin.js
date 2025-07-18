@@ -4,7 +4,7 @@ import { getAuth, onAuthStateChanged,signOut } from "https://www.gstatic.com/fir
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "process.env.API_KEY;",
+    apiKey: "process.env.API_KEY",
     authDomain: "website-1d779.firebaseapp.com",
     databaseURL: "https://website-1d779-default-rtdb.firebaseio.com",
     projectId: "website-1d779",
